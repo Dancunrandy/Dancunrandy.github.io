@@ -6,7 +6,7 @@
 
 .about__me {
     width: 100%;
-    aspect-ratio: 0.5/0.4;
+    aspect-ratio: auto;
     border-radius: 2rem;
     background: linear-gradient(
     45deg, transparent, 
@@ -15,12 +15,12 @@
     place-items: center;
 }
 .about__me-image{
-    border-radius: 12rem;
+    border-radius: 2rem;
     overflow: hidden;
     /* transform: rotate(0.8deg); */
 }
 .about__me-image:hover{
-    transform: rotate(8deg);
+    transform: rotate(10deg);
 }
 
 .about__cards {
