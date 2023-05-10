@@ -1,5 +1,5 @@
 import React from 'react'
-import ME from '../../assets/me-about.png'
+import ME from '../../assets/Raw.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -42,7 +42,7 @@ const About = () => {
             Javascript , Ruby  and React. I thrive in fast-paced environments and love collaborating with teams to achieve shared goals.
             I'm excited to bring my skills and experience to new challenges and opportunities, and I'm confident that I can make a valuable contribution to any organization I join.
             </p>
-            <a href='#contact' className='btn btn-primary'>Let's Talk </a>
+            <a href='#contact' className='btn btn-primary'>Let's Chat </a>
           </div>
         </div>
     </section>

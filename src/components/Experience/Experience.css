@@ -51,7 +51,7 @@
 
 
 
-@media screen and (max-width:600px) {
+/* @media screen and (max-width:600px) {
 
     .experience_container{
         gap: 1rem;
@@ -60,4 +60,34 @@
         width: 100%;
         padding:2rem 1rem;
     }
-}
+} */
+@media screen and (max-width:600px) {
+    .experience_container {
+      display: block;
+    }
+    .experience_container > div {
+      width: 100%;
+      padding: 2rem 1rem;
+      margin-bottom: 2rem;
+      border-radius: 0;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      transition: none;
+    }
+    .experience_container > div:hover {
+      background: var(--color-bg-variant);
+      border-color: transparent;
+      box-shadow: none;
+    }
+    .experience_content {
+      display: block;
+      padding: 1rem;
+    }
+    .experience_details {
+      display: block;
+      margin-top: 1rem;
+    }
+    .experience_details-icon {
+      margin-top: 0;
+    }
+  }
+  
