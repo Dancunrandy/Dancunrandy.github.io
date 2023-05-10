@@ -1,6 +1,6 @@
-header{
-    height: 185vh;
-    padding: 13rem;
+header {
+    height: 100vh;
+    padding-top: 3rem;
     overflow: hidden;
 
 }
@@ -10,7 +10,7 @@ header{
     position: relative;
 }
 .cta {
-    /* margin-top: 1rem; */
+    margin-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -23,7 +23,7 @@ header{
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 1rem;
+    bottom: 3rem;
 }
 
 .header_socials::after{
@@ -35,15 +35,14 @@ header{
 }
 .me {
 background: linear-gradient(var(--color-primary),transparent);
-width: 70rem;
-height: 80rem;
-position:absolute;
-left: calc(500%-22rem);
-right: calc(500%- 22rem);
+width: 28rem;
+height: 36rem;
+position: absolute;
+left: calc(50% - 15rem);  
 margin-top: 2rem;
-border-radius: 14rem 14rem 14rem 14rem;
+border-radius: 8rem 8rem 0 0;
 overflow: hidden;
-padding: rem 1.5rem 1.5rem 1.5rem;
+padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 .scroll_down {
     position: absolute;
@@ -53,32 +52,18 @@ padding: rem 1.5rem 1.5rem 1.5rem;
     font-weight: 300;
     font-size: 0.9rem;
 }
-
 @media screen and (max-width:1024px) {
        header {
-        height: 180vh;
+        height: 68vh;
        }
 }
 
 @media screen and (max-width:600px) {
     header {
-      height: auto;
-      padding: 2rem;
+      height: 100vh;
     }
-    .header_container {
-      height: calc(100vh - 7rem);
-    }
-    .cta {
-      margin-top: 1.5rem;
-    }
-    .me {
-      width: 100%;
-      height: auto;
-      left: 0;
-      right: 0;
-      margin-top: 2rem;
-      border-radius: 0;
-      padding: 1rem;
+    .header_socials, .scroll_down {
+      display: none;
     }
   }
   
