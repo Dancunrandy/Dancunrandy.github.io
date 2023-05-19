@@ -38,7 +38,7 @@ const About = () => {
             </div>
             <p>
             Am a motivated and detail-oriented individual with a passion for technology and problem-solving. 
-            With over 5years of experience in Software engineering and Finance, I've developed a strong skillset in Data analysis, Financial management,
+            With over 4years of experience in Software engineering and Finance, I've developed a strong skillset in Data analysis, Financial management,
             Javascript , Ruby  and React. I thrive in fast-paced environments and love collaborating with teams to achieve shared goals.
             I'm excited to bring my skills and experience to new challenges and opportunities, and I'm confident that I can make a valuable contribution to any organization I join.
             </p>
