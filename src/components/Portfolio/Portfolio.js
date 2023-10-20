@@ -2,6 +2,7 @@ import React from 'react'
 import CHARITYAPP from '../../assets/charityapp.png'
 import LIBRARY from '../../assets/library.png'
 import COMMERCE from '../../assets/e-commerce.png'
+import MAJUU from '../../assets/majuu.png'
 import './Portfolio.css'
 const Portfolio = () => {
   return (
@@ -37,6 +38,16 @@ const Portfolio = () => {
             <div className='portfolio_item-cta'>
               <a href='https://github.com/levy-web/farmart' className='btn'target=''>Github</a>
               <a href='https://farmart-delta.vercel.app/'className='btn btn-primary' target='COMMERCE'>live Demo</a>
+            </div>
+      </article>
+      <article className='portfolio_item'>
+        <div className='portfolio_item-image'>
+          <img src={MAJUU} alt=""/>
+        </div>
+            <h3>SOKO-MAJUU</h3>
+            <div className='portfolio_item-cta'>
+              <a href='https://github.com/Dancunrandy/Soko-majuu' className='btn'target=''>Github</a>
+              <a href='https://soko-majuu-mag7vbx45-dancunrandy.vercel.app/'className='btn btn-primary' target='SOKO-MAJUU'>live Demo</a>
             </div>
       </article>
     </div>
