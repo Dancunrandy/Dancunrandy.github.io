@@ -14,7 +14,7 @@ const Portfolio = () => {
         <div className='portfolio_item-image'>
           <img src={CHARITYAPP} alt=""/>
         </div>
-            <h3>CHARITY-APP</h3>
+            <h3>CHARITY</h3>
               <div className='portfolio_item-cta'>
                 <a href='https://github.com/KeittahSewe/Charity-Application' className='btn'target=''>Github</a>
                 <a href='https://charity-application.vercel.app/'className='btn btn-primary' target='CHARITYAPP'>live Demo</a>
@@ -24,7 +24,7 @@ const Portfolio = () => {
         <div className='portfolio_item-image'>
           <img src={LIBRARY} alt=""/>
         </div>
-            <h3>LIBRARY-APP</h3>
+            <h3>LIBRARY</h3>
             <div className='portfolio_item-cta'>
               <a href='https://github.com/venus714/home-lib' className='btn'target=''>Github</a>
               <a href='https://master--graceful-cucurucho-cb3f5f.netlify.app/'className='btn btn-primary' target='LIBRARY'>live Demo</a>
@@ -34,7 +34,7 @@ const Portfolio = () => {
         <div className='portfolio_item-image'>
           <img src={COMMERCE} alt=""/>
         </div>
-            <h3>E-COMMERCE</h3>
+            <h3>FARMART</h3>
             <div className='portfolio_item-cta'>
               <a href='https://github.com/levy-web/farmart' className='btn'target=''>Github</a>
               <a href='https://farmart-delta.vercel.app/'className='btn btn-primary' target='COMMERCE'>live Demo</a>
