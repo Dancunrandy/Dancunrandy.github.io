@@ -1,5 +1,5 @@
 import React from 'react'
-import Software  from '../../assets/Software devop.pdf'
+import Software  from '../../daniel mutie.pdf'
 const Cta = () => {
   return (
     <div className='cta'>
